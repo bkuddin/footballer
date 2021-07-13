@@ -20,5 +20,90 @@ body{
 
 /*------------common styles or utilities End -----------*/
 
+/*------------Style starting on Header Section----------*/
+
+/* Menu */
+
+.header-section{
+    width: 100%;
+    height: 677px;
+    background: #2D25A0;
+}
+
+.menu{
+    padding-top: 52px;
+}
+
+.menu__items{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__items__list ul{
+    display: inline-flex;    
+    list-style: none;
+
+}
+
+.menu__items__list ul li{
+    margin-right: 36px;
+    margin-top: 10px;
+
+}
+
+.menu__items__list ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.menu__items__login{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 123px;
+    height: 44px;
+   
+    background: radial-gradient( 100% 100% at 100% 0%, #5ADAFF 0%, #5468FF 100% ); 
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+
+    transition: transform 0.1s ease-in;
+
+    
+    
+}
+
+.menu__items__login a{
+    font-size: 16px;
+    font-weight: 500;
+    
+
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    color: white;   
+
+}
+
+.menu__items__login i{
+    margin-right: 8px;
+    
+}
+
+/* Button Hover */
+
+.menu__items__login:hover{
+    
+
+    background: radial-gradient( 80% 80% at 80% 0%, #5adbffea 0%, #6879ff 100% ); 
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);    
+    transform: translateY(-2px);
+    
+
+}
+
+
+
 
 
