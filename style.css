@@ -140,6 +140,47 @@ body{
     
 }
 
+/*------------Style starting on Main Section----------*/
+
+/* Top Players */
+
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px 30px ;
+    /* grid-row-gap: 27px; */
+    justify-items: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 70px;
+    
+}
+
+.top-players__top-player{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.top-player__photo{
+    width: 300px;
+}
+
+.top-player__name{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.top-player__bio{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
 
 
 
