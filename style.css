@@ -314,3 +314,110 @@ footer {
   margin-top: 20px;
   color: #2d25a0;
 }
+
+/*----------------- Responsive Design ----------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .header-section {
+    height: 100%;
+  }
+
+  .menu__items {
+    display: none;
+  }
+
+  .cover__items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cover__items__cover-title h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 180px;
+  }
+
+  .cover__items__cover-photo img {
+    width: 400px;
+    margin-left: 180px;
+  }
+
+  .btn {
+    margin-left: 300px;
+  }
+
+  .world-rankings {
+    text-align: center;
+  }
+
+  .about-rankings {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .header-section {
+    height: 100%;
+  }
+
+  .menu__items {
+    display: none;
+  }
+
+  .cover__items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cover__items__cover-title h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+
+  .cover__items__cover-photo img {
+    width: 100%;
+  }
+  .cover__items__cover-title .btn {
+    margin-left: 130px;
+  }
+  .top-players {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+
+  .highlights__items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .highlights-text {
+    width: 100%;
+    height: 100%;
+  }
+
+  .highlights__cover__photo img {
+    width: 100%;
+  }
+
+  .btn {
+    margin-left: 100px;
+    margin-bottom: 40px;
+  }
+
+  .world-rankings {
+    text-align: center;
+  }
+
+  .about-rankings {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
