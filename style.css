@@ -1,22 +1,16 @@
-
 /*------------common styles or utilities Start -----------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-
-
-body{
-
-    font-family: 'Poppins', sans-serif;
-    background: white;
-
-
+body {
+  font-family: "Poppins", sans-serif;
+  background: white;
 }
 
 /*------------common styles or utilities End -----------*/
@@ -25,167 +19,174 @@ body{
 
 /* Menu */
 
-.header-section{
-    width: 100%;
-    height: 677px;
-    background: #2D25A0;
+.header-section {
+  width: 100%;
+  height: 677px;
+  background: #2d25a0;
 }
 
-.menu{
-    padding-top: 52px;
+.menu {
+  padding-top: 52px;
 }
 
-.menu__items{
-    
-    display: flex;
-    justify-content: space-between;
-    
+.menu__items {
+  display: flex;
+  justify-content: space-between;
 }
 
-.menu__items__list ul{
-    display: inline-flex;    
-    list-style: none;
-    margin-left: 120px;
-    
-
+.menu__items__list ul {
+  display: inline-flex;
+  list-style: none;
+  margin-left: 120px;
 }
 
-.menu__items__list ul li{
-    margin-right: 36px;
-    margin-top: 10px;
-
+.menu__items__list ul li {
+  margin-right: 36px;
+  margin-top: 10px;
 }
 
-.menu__items__list ul li a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
+.menu__items__list ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
 }
 
-.menu__items__login{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 123px;
-    height: 44px;    
+.menu__items__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 123px;
+  height: 44px;
 }
 
-.btn{
-    background: radial-gradient( 100% 100% at 100% 0%, #5ADAFF 0%, #5468FF 100% ); 
-    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
-    transition: transform 0.1s ease-in;
-    margin-right: 120px;   
+.btn--motion {
+  background: radial-gradient(100% 100% at 100% 0%, #5adaff 0%, #5468ff 100%);
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%),
+    inset 0px -3px 0px rgb(58 65 111 / 50%);
+  transition: transform 0.1s ease-in;
+  margin-right: 120px;
 }
 
-.menu__items__login a{
-    font-size: 16px;
-    font-weight: 500;
-    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
-    color: white;   
-
+.menu__items__login a {
+  font-size: 16px;
+  font-weight: 500;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+  color: white;
 }
 
-.menu__items__login i{
-    margin-right: 8px;    
+.menu__items__login i {
+  margin-right: 8px;
 }
 
 /* Button Hover */
 
-.btn:hover{   
-
-    background: radial-gradient( 80% 80% at 80% 0%, #5adbffea 0%, #6879ff 100% ); 
-    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);    
-    transform: translateY(-2px);    
-
+.btn--motion:hover {
+  background: radial-gradient(80% 80% at 80% 0%, #5adbffea 0%, #6879ff 100%);
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%),
+    inset 0px -3px 0px rgb(58 65 111 / 50%);
+  transform: translateY(-2px);
 }
 
 /*------------Style starting on Cover Section----------*/
 
-.cover__items{
-    display: flex;
-    justify-content: space-around;
-    
+.cover__items {
+  display: flex;
+  justify-content: space-around;
 }
 
-
-.cover__items__cover-title h1{
-    font-size: 64px;
-    font-weight: 700;
-    color: white;
-    margin-top: 120px;
-    text-transform: lowercase;
-
+.cover__items__cover-title h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  margin-top: 120px;
+  text-transform: lowercase;
 }
 
-.cover__items__cover-title .btn{
-    width: 168px;
-    height: 44px;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-    border:none;
-    margin-top: 27px;
-    
+.btn {
+  width: 168px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  margin-top: 27px;
 }
 
-.cover__items__cover-title i{
-    margin-left: 8px;
+.btn i {
+  margin-left: 8px;
 }
 
-.cover__items__cover-photo img{
-    width: 556px;
-    margin-top: 50px;
-    
+.cover__items__cover-photo img {
+  width: 556px;
+  margin-top: 50px;
 }
 
 /*------------Style starting on Main Section----------*/
 
 /* Top Players */
 
-.top-players{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 27px 30px ;
-    /* grid-row-gap: 27px; */
-    justify-items: center;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-top: 70px;
-    
+.top-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 27px 30px;
+  /* grid-row-gap: 27px; */
+  justify-items: center;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 70px;
 }
 
-.top-players__top-player{
-    width: 330px;
-    height: 474px;
-    padding: 15px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+.top-players__top-player {
+  width: 330px;
+  height: 474px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
-.top-player__photo img{
-    width: 300px;
+.top-player__photo img {
+  width: 300px;
 }
 
-.top-player__name{
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 40px;
+.top-player__name {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
 }
 
-.top-player__bio{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
+.top-player__bio {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
+/* Style starting on Highlights section */
+.highlights__items {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 165px;
+}
 
+.highlights-text {
+  width: 470px;
+  height: 310px;
+  margin-top: 27px;
+}
 
+.highlights-text__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
 
+.highlights-text__description {
+  font-size: 16px;
+  line-height: 28px;
+}
 
-
-
-
-
-
+.highlights__cover__photo img {
+  width: 567px;
+}
