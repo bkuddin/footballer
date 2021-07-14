@@ -22,7 +22,7 @@ body {
 .header-section {
   width: 100%;
   height: 677px;
-  background: #2d25a0;
+  background: #a59ffa;
 }
 
 .menu {
@@ -125,7 +125,7 @@ body {
 }
 
 .cover__items__cover-photo img {
-  width: 556px;
+  width: 560px;
   margin-top: 50px;
 }
 
@@ -201,7 +201,7 @@ body {
 /* World ranking */
 
 .world-rankings {
-  background-color: #2d25a0;
+  background-color: #a59ffa;
   color: white;
   padding: 40px;
 }
@@ -291,12 +291,12 @@ footer {
 }
 
 .logo img {
-  width: 200px;
+  width: 400px;
 }
 
 .social i {
   font-size: 32px;
-  color: #7a71f7;
+  color: #a59ffa;
 }
 
 .copy-right {
