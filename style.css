@@ -15,7 +15,7 @@ body {
 
 /*------------common styles or utilities End -----------*/
 
-/*------------Style starting on Header Section----------*/
+/*------------Style is starting on Header Section----------*/
 
 /* Menu */
 
@@ -95,7 +95,7 @@ body {
   transition: transform 0.3s ease-in;
 }
 
-/*------------Style starting on Cover Section----------*/
+/*------------Style is starting on Cover Section----------*/
 
 .cover__items {
   display: flex;
@@ -129,7 +129,7 @@ body {
   margin-top: 50px;
 }
 
-/*------------Style starting on Main Section----------*/
+/*------------Style is starting on Main Section----------*/
 
 /* Top Players */
 
@@ -168,11 +168,12 @@ body {
   line-height: 26px;
 }
 
-/* Style starting on Highlights section */
+/* Style is starting on Highlights section */
 .highlights__items {
   display: flex;
   justify-content: space-evenly;
   margin-top: 165px;
+  margin-bottom: 165px;
 }
 
 .highlights-text {
@@ -194,4 +195,112 @@ body {
 
 .highlights__cover__photo img {
   width: 567px;
+}
+
+/*-------------- Style is staring on extra sections---------------- */
+/* World ranking */
+
+.world-rankings {
+  background-color: #2d25a0;
+  color: white;
+  padding: 40px;
+}
+.about-rankings {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 2;
+}
+
+.text-section {
+  width: 380px;
+  height: 180px;
+  margin-top: 100px;
+}
+
+.title-text {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.gender {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.ranking-block {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.line {
+  border-top: 1px solid rgb(194, 192, 192);
+  margin-top: 24px;
+}
+
+.ranking-list {
+  /* width: 520px; */
+  display: flex;
+  align-items: center;
+}
+
+.list-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #746ce6;
+}
+
+.list-title .team {
+  margin-left: -120px;
+}
+
+.rank-position {
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.rank-country {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.rank-country h4 {
+  margin-left: 18px;
+}
+
+.rank-points {
+  font-size: 18px;
+}
+
+/* Ranking List Hover Action */
+
+.ranking-list:hover {
+  transform: translate(10px);
+  transition: transform 0.8 ease-in;
+}
+
+/* Style is starting on Footer Section */
+
+footer {
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 60px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.social i {
+  font-size: 32px;
+  color: #7a71f7;
+}
+
+.copy-right {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #2d25a0;
 }
