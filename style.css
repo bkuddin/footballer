@@ -207,7 +207,7 @@ body {
   width: 567px;
 }
 
-/*-------------- Style is staring on extra sections---------------- */
+/*-------------- Style is staring on extra sections 1---------------- */
 /* World ranking */
 
 .world-rankings {
@@ -290,6 +290,19 @@ body {
 .ranking-list:hover {
   transform: translate(10px);
   transition: transform 0.8 ease-in;
+}
+
+/*-------------- Style is staring on extra sections 1---------------- */
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: url(images/video-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Style is starting on Footer Section */
