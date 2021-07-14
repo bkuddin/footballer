@@ -90,6 +90,11 @@ body {
   transform: translateY(-2px);
 }
 
+.btn--motion:hover .fa-arrow-right {
+  transform: translate(10px);
+  transition: transform 0.3s ease-in;
+}
+
 /*------------Style starting on Cover Section----------*/
 
 .cover__items {
